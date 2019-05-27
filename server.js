@@ -1,6 +1,17 @@
 var express = require("express");
 var app = express();
 
+// ----- Middleware
+app.use("/store", function(req, res, next) {
+  console.log("Hello, this is middleware in your /store request!");
+  next();
+});
+
+// ----- GET: store
+app.get("/store", function(req, res) {
+  res.send("This is the store");
+});
+
 // ----- GET: main page
 app.get("/", function(req, res) {
   res.send("You're probably looking for store, am I right?");
