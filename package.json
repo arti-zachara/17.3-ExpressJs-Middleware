@@ -1,0 +1,26 @@
+{
+  "name": "17.3",
+  "version": "1.0.0",
+  "description": "Kodilla task 17.5 - ExpressJS with a middleware use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arti-zachara/17.3-ExpressJs-Middleware.git"
+  },
+  "keywords": [
+    "ExpressJS",
+    "middleware"
+  ],
+  "author": "arti Zachara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arti-zachara/17.3-ExpressJs-Middleware/issues"
+  },
+  "homepage": "https://github.com/arti-zachara/17.3-ExpressJs-Middleware#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
